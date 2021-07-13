@@ -1,0 +1,60 @@
+<actorname=$Cultist$ atlusfilename=$Images/CultistAtlus.png$ imageDivSize=$45,42$ imageDivCount=$5,12$ actionTotalNum=$10$>
+<actionname=$Idle$ maxframe=$6$ duration=$0.080000$ loop=$TRUE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-3,-16$ end=$16,22$ size=$19,38$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-2,-15$ end=$15,21$ size=$17,36$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-2,-13$ end=$16,21$ size=$18,34$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$0,-12$ end=$17,21$ size=$17,33$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-2,-13$ end=$16,22$ size=$18,35$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-1,-13$ end=$15,21$ size=$16,34$>
+<actionname=$Run$ maxframe=$8$ duration=$0.080000$ loop=$TRUE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-2,-15$ end=$16,22$ size=$18,37$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-2,-12$ end=$14,20$ size=$16,32$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-1,-15$ end=$13,21$ size=$14,36$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-2,-17$ end=$16,21$ size=$18,38$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$0,-13$ end=$15,19$ size=$15,32$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-1,-12$ end=$16,20$ size=$17,32$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-1,-13$ end=$15,20$ size=$16,33$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-1,-16$ end=$15,20$ size=$16,36$>
+<actionname=$Attack$ maxframe=$10$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-2,-14$ end=$15,22$ size=$17,36$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-2,-16$ end=$17,20$ size=$19,36$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-1,-16$ end=$16,22$ size=$17,38$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-2,-12$ end=$16,21$ size=$18,33$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-2,-11$ end=$15,21$ size=$17,32$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-2,-9$ end=$16,21$ size=$18,30$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-3,-10$ end=$17,21$ size=$20,31$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-2,-12$ end=$16,21$ size=$18,33$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-3,-15$ end=$17,21$ size=$20,36$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-3,-13$ end=$17,22$ size=$20,35$>
+<actionname=$Hit$ maxframe=$3$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-2,-16$ end=$17,22$ size=$19,38$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-3,-15$ end=$17,20$ size=$20,35$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-3,-17$ end=$17,21$ size=$20,38$>
+<actionname=$END$>

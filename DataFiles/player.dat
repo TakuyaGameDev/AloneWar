@@ -1,0 +1,277 @@
+<actorname=$player$ atlusfilename=$Images/PlayerAtlus.png$ imageDivSize=$219,266$ imageDivCount=$12,11$ actionTotalNum=$15$>
+<actionname=$Idle$ maxframe=$1$ duration=$0.100000$ loop=$TRUE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-12,-2$ end=$17,62$ size=$29,64$>
+<actionname=$Run$ maxframe=$24$ duration=$0.20000$ loop=$TRUE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-16,-7$ end=$18,61$ size=$34,68$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-13,-7$ end=$19,57$ size=$32,64$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-13,-12$ end=$21,51$ size=$34,63$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-13,-14$ end=$21,46$ size=$34,60$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-15,-10$ end=$21,50$ size=$36,60$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-16,-4$ end=$19,59$ size=$35,63$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-14,2$ end=$15,60$ size=$29,58$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-15,2$ end=$13,59$ size=$28,57$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-15,8$ end=$15,60$ size=$30,52$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-15,2$ end=$13,59$ size=$28,57$>
+<rectnum=$1$>
+<animationframe=$10$ recttype=$DAMAGE$ begin=$-17,2$ end=$14,61$ size=$31,59$>
+<rectnum=$1$>
+<animationframe=$11$ recttype=$DAMAGE$ begin=$-14,-1$ end=$14,61$ size=$28,62$>
+<rectnum=$1$>
+<animationframe=$12$ recttype=$DAMAGE$ begin=$-15,-6$ end=$15,59$ size=$30,65$>
+<rectnum=$1$>
+<animationframe=$13$ recttype=$DAMAGE$ begin=$-16,-8$ end=$18,54$ size=$34,62$>
+<rectnum=$1$>
+<animationframe=$14$ recttype=$DAMAGE$ begin=$-15,-10$ end=$19,50$ size=$34,60$>
+<rectnum=$1$>
+<animationframe=$15$ recttype=$DAMAGE$ begin=$-16,-17$ end=$20,46$ size=$36,63$>
+<rectnum=$1$>
+<animationframe=$16$ recttype=$DAMAGE$ begin=$-18,-10$ end=$20,47$ size=$38,57$>
+<rectnum=$1$>
+<animationframe=$17$ recttype=$DAMAGE$ begin=$-15,-5$ end=$18,55$ size=$33,60$>
+<rectnum=$1$>
+<animationframe=$18$ recttype=$DAMAGE$ begin=$-21,0$ end=$15,59$ size=$36,59$>
+<rectnum=$1$>
+<animationframe=$19$ recttype=$DAMAGE$ begin=$-18,4$ end=$16,59$ size=$34,55$>
+<rectnum=$1$>
+<animationframe=$20$ recttype=$DAMAGE$ begin=$-17,6$ end=$12,61$ size=$29,55$>
+<rectnum=$1$>
+<animationframe=$21$ recttype=$DAMAGE$ begin=$-15,4$ end=$16,60$ size=$31,56$>
+<rectnum=$1$>
+<animationframe=$22$ recttype=$DAMAGE$ begin=$-16,4$ end=$15,59$ size=$31,55$>
+<rectnum=$1$>
+<animationframe=$23$ recttype=$DAMAGE$ begin=$-17,2$ end=$15,59$ size=$32,57$>
+<actionname=$AttackBow$ maxframe=$9$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-19,-1$ end=$14,62$ size=$33,63$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-13,-1$ end=$18,62$ size=$31,63$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-17,-3$ end=$21,61$ size=$38,64$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-14,-6$ end=$22,61$ size=$36,67$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-12,-3$ end=$24,61$ size=$36,64$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-15,-3$ end=$20,59$ size=$35,62$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-14,-1$ end=$20,61$ size=$34,62$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-17,-7$ end=$17,61$ size=$34,68$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-17,2$ end=$18,63$ size=$35,61$>
+<actionname=$Jump_rising$ maxframe=$3$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-15,14$ end=$17,60$ size=$32,46$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-9,-7$ end=$16,57$ size=$25,64$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-11,-7$ end=$14,56$ size=$25,63$>
+<actionname=$Transition_to_fall$ maxframe=$7$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-10,-7$ end=$15,57$ size=$25,64$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-11,-7$ end=$16,53$ size=$27,60$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-11,1$ end=$19,52$ size=$30,51$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-13,0$ end=$18,53$ size=$31,53$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-15,1$ end=$18,52$ size=$33,51$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-15,-1$ end=$16,54$ size=$31,55$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-13,-2$ end=$16,55$ size=$29,57$>
+<actionname=$Falling$ maxframe=$4$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-14,-7$ end=$14,59$ size=$28,66$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-16,-8$ end=$14,59$ size=$30,67$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-16,-10$ end=$14,61$ size=$30,71$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-14,-10$ end=$16,62$ size=$30,72$>
+<actionname=$Landing$ maxframe=$4$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-14,6$ end=$18,62$ size=$32,56$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-14,16$ end=$16,59$ size=$30,43$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-18,6$ end=$15,62$ size=$33,56$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-13,1$ end=$20,62$ size=$33,61$>
+<actionname=$Sliding$ maxframe=$4$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-10,37$ end=$33,61$ size=$43,24$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-15,32$ end=$32,61$ size=$47,29$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-11,35$ end=$31,61$ size=$42,26$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-12,38$ end=$30,62$ size=$42,24$>
+<actionname=$LightAttackCombo1$ maxframe=$7$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-1,-1$ end=$25,59$ size=$26,60$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-11,5$ end=$31,61$ size=$42,56$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-13,8$ end=$27,61$ size=$40,53$>
+<rectnum=$2$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-4,18$ end=$25,59$ size=$29,41$>
+<animationframe=$3$ recttype=$ATTACK$ begin=$-52,11$ end=$-21,50$ size=$31,39$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-5,0$ end=$24,58$ size=$29,58$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-5,0$ end=$23,62$ size=$28,62$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-6,0$ end=$24,62$ size=$30,62$>
+<actionname=$LightAttackCombo2$ maxframe=$5$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-11,-2$ end=$23,60$ size=$34,62$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-19,-4$ end=$22,63$ size=$41,67$>
+<rectnum=$2$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-12,4$ end=$24,60$ size=$36,56$>
+<animationframe=$2$ recttype=$ATTACK$ begin=$-56,8$ end=$-25,58$ size=$31,50$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-16,2$ end=$22,61$ size=$38,59$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-13,5$ end=$22,61$ size=$35,56$>
+<actionname=$LightAttackCombo3$ maxframe=$12$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-9,0$ end=$24,60$ size=$33,60$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-13,3$ end=$19,62$ size=$32,59$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-11,1$ end=$22,61$ size=$33,60$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-14,-2$ end=$19,59$ size=$33,61$>
+<rectnum=$2$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-13,11$ end=$24,60$ size=$37,49$>
+<animationframe=$4$ recttype=$ATTACK$ begin=$-54,5$ end=$-22,60$ size=$32,55$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-13,13$ end=$28,61$ size=$41,48$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-15,16$ end=$28,59$ size=$43,43$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-17,16$ end=$28,61$ size=$45,45$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-14,17$ end=$25,59$ size=$39,42$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-14,17$ end=$27,61$ size=$41,44$>
+<rectnum=$1$>
+<animationframe=$10$ recttype=$DAMAGE$ begin=$-10,13$ end=$25,60$ size=$35,47$>
+<rectnum=$1$>
+<animationframe=$11$ recttype=$DAMAGE$ begin=$-6,9$ end=$27,61$ size=$33,52$>
+<actionname=$HeavyAttackCombo1$ maxframe=$10$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-2,-2$ end=$31,61$ size=$33,63$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$5,14$ end=$30,60$ size=$25,46$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$1,17$ end=$31,59$ size=$30,42$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$-11,5$ end=$28,61$ size=$39,56$>
+<rectnum=$2$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$-2,10$ end=$30,59$ size=$32,49$>
+<animationframe=$4$ recttype=$ATTACK$ begin=$-49,7$ end=$-16,58$ size=$33,51$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-6,14$ end=$27,59$ size=$33,45$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-10,16$ end=$26,60$ size=$36,44$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-8,16$ end=$27,61$ size=$35,45$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-6,16$ end=$25,59$ size=$31,43$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-8,14$ end=$26,62$ size=$34,48$>
+<actionname=$HeavyAttackCombo2$ maxframe=$14$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-7,7$ end=$27,63$ size=$34,56$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-5,4$ end=$24,59$ size=$29,55$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$0,1$ end=$25,63$ size=$25,62$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$0,-1$ end=$28,62$ size=$28,63$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$1,0$ end=$27,60$ size=$26,60$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-2,3$ end=$27,62$ size=$29,59$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-19,-1$ end=$22,58$ size=$41,59$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$-24,1$ end=$23,60$ size=$47,59$>
+<rectnum=$2$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$-15,8$ end=$26,61$ size=$41,53$>
+<animationframe=$8$ recttype=$ATTACK$ begin=$-61,9$ end=$-27,60$ size=$34,51$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-18,6$ end=$26,63$ size=$44,57$>
+<rectnum=$1$>
+<animationframe=$10$ recttype=$DAMAGE$ begin=$-12,11$ end=$29,60$ size=$41,49$>
+<rectnum=$1$>
+<animationframe=$11$ recttype=$DAMAGE$ begin=$-15,12$ end=$25,61$ size=$40,49$>
+<rectnum=$1$>
+<animationframe=$12$ recttype=$DAMAGE$ begin=$-11,13$ end=$25,59$ size=$36,46$>
+<rectnum=$1$>
+<animationframe=$13$ recttype=$DAMAGE$ begin=$-12,9$ end=$26,61$ size=$38,52$>
+<actionname=$HeavyAttackCombo3$ maxframe=$16$ duration=$0.20000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$-14,5$ end=$24,60$ size=$38,55$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-9,-1$ end=$26,63$ size=$35,64$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$-6,-2$ end=$23,59$ size=$29,61$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$0,0$ end=$26,62$ size=$26,62$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$4,1$ end=$27,60$ size=$23,59$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$8,-1$ end=$35,62$ size=$27,63$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$13,4$ end=$43,61$ size=$30,57$>
+<rectnum=$1$>
+<animationframe=$7$ recttype=$DAMAGE$ begin=$12,17$ end=$43,59$ size=$31,42$>
+<rectnum=$1$>
+<animationframe=$8$ recttype=$DAMAGE$ begin=$14,19$ end=$43,55$ size=$29,36$>
+<rectnum=$1$>
+<animationframe=$9$ recttype=$DAMAGE$ begin=$-2,14$ end=$33,63$ size=$35,49$>
+<rectnum=$2$>
+<animationframe=$10$ recttype=$DAMAGE$ begin=$-10,18$ end=$46,60$ size=$56,42$>
+<animationframe=$10$ recttype=$ATTACK$ begin=$-49,3$ end=$-19,56$ size=$30,53$>
+<rectnum=$1$>
+<animationframe=$11$ recttype=$DAMAGE$ begin=$-9,19$ end=$46,62$ size=$55,43$>
+<rectnum=$1$>
+<animationframe=$12$ recttype=$DAMAGE$ begin=$-12,18$ end=$44,60$ size=$56,42$>
+<rectnum=$1$>
+<animationframe=$13$ recttype=$DAMAGE$ begin=$-11,21$ end=$46,62$ size=$57,41$>
+<rectnum=$1$>
+<animationframe=$14$ recttype=$DAMAGE$ begin=$-13,22$ end=$46,61$ size=$59,39$>
+<rectnum=$1$>
+<animationframe=$15$ recttype=$DAMAGE$ begin=$-10,22$ end=$43,61$ size=$53,39$>
+<actionname=$Hit$ maxframe=$7$ duration=$0.080000$ loop=$FALSE$>
+<rectnum=$1$>
+<animationframe=$0$ recttype=$DAMAGE$ begin=$1,-4$ end=$32,61$ size=$31,65$>
+<rectnum=$1$>
+<animationframe=$1$ recttype=$DAMAGE$ begin=$-1,-2$ end=$33,61$ size=$34,63$>
+<rectnum=$1$>
+<animationframe=$2$ recttype=$DAMAGE$ begin=$1,-3$ end=$34,60$ size=$33,63$>
+<rectnum=$1$>
+<animationframe=$3$ recttype=$DAMAGE$ begin=$1,-1$ end=$34,61$ size=$33,62$>
+<rectnum=$1$>
+<animationframe=$4$ recttype=$DAMAGE$ begin=$2,4$ end=$35,59$ size=$33,55$>
+<rectnum=$1$>
+<animationframe=$5$ recttype=$DAMAGE$ begin=$-1,8$ end=$35,60$ size=$36,52$>
+<rectnum=$1$>
+<animationframe=$6$ recttype=$DAMAGE$ begin=$-2,2$ end=$30,60$ size=$32,58$>
+<actionname=$END$>

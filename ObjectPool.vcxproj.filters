@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor">
+      <UniqueIdentifier>{dcae3e4c-f51f-4a98-8f54-6b31f61a8c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Controller">
+      <UniqueIdentifier>{7c4c89f1-6d25-4192-9f5c-a13117f360f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Loader">
+      <UniqueIdentifier>{d7f2031a-829a-417e-bab6-5c0f0167c698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Objects">
+      <UniqueIdentifier>{46f91079-9410-4dd2-957e-eca8a460fd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actor">
+      <UniqueIdentifier>{1a80dc93-9449-46f9-8aee-9337710db804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Controller">
+      <UniqueIdentifier>{ec0f5952-3e49-49e9-8ac1-74152efbe76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Loader">
+      <UniqueIdentifier>{d2175628-8946-4156-9ab5-c3002de45dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EnemyAction">
+      <UniqueIdentifier>{d7d69576-8d35-4667-8cb2-0332367df11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{938d8823-0363-4b6f-9e40-ebefb3f0b5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Pool">
+      <UniqueIdentifier>{20850610-d86d-4e11-b8ba-04002a1a9444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EnemyAction\Action">
+      <UniqueIdentifier>{c57f2e7b-9bea-4d0d-b90e-f4921d35c325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EnemyAction\Judgement">
+      <UniqueIdentifier>{b291cf43-780a-409a-a8b4-fbb8c205df4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EnemyAction">
+      <UniqueIdentifier>{3ea6ab20-9e93-4288-98c3-bf86162121ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Pool">
+      <UniqueIdentifier>{1072dc4c-bb2d-4550-a589-21241c0b63b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{fba2c1e2-3053-4c23-9ca8-bbc1a973baaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EnemyAction\Action">
+      <UniqueIdentifier>{ef7c525a-08db-43a3-b72e-7eb42aa7aca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EnemyAction\Judgement">
+      <UniqueIdentifier>{40481651-9d45-4f75-8f21-e120317cc882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataFiles">
+      <UniqueIdentifier>{5fc40825-57d4-469f-a30f-45f88213c5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{32d6c6ed-bcb0-4d02-a503-afffb0eb25de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\Actor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\Enemy.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\Player.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\KeyInput.cpp">
+      <Filter>ソース ファイル\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\PadInput.cpp">
+      <Filter>ソース ファイル\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\FileLoader.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\ImageLoader.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\BackGround.cpp">
+      <Filter>ソース ファイル\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Obj.cpp">
+      <Filter>ソース ファイル\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCache.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\ActionNode.cpp">
+      <Filter>ソース ファイル\EnemyAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\ActionBase.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\MoveLRAction.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\NormalAttackAction.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\ZMoveAction.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\JudgementBase.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\MoveLRJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\NormalAttackJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\ZMoveJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="Pool\EnemyPool.cpp">
+      <Filter>ソース ファイル\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="Pool\ObjectPool.cpp">
+      <Filter>ソース ファイル\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BaseScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\SkillAttackAction.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\SkillAttackJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\BehaviorTree.cpp">
+      <Filter>ソース ファイル\EnemyAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\AttackJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMYTYPE.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\MoveJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Action\AvoidanceAction.cpp">
+      <Filter>ソース ファイル\EnemyAction\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\Judgement\AvoidanceJudgement.cpp">
+      <Filter>ソース ファイル\EnemyAction\Judgement</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction\BehaviorData.cpp">
+      <Filter>ソース ファイル\EnemyAction</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\SoundLoader.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\Loader.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\Fireball.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor\Actor.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\Enemy.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\Player.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>ヘッダー ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\InputID.h">
+      <Filter>ヘッダー ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\KeyInput.h">
+      <Filter>ヘッダー ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\PadInput.h">
+      <Filter>ヘッダー ファイル\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\FileLoader.h">
+      <Filter>ヘッダー ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\ImageLoader.h">
+      <Filter>ヘッダー ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCheck.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCache.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometory.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\ActionNode.h">
+      <Filter>ヘッダー ファイル\EnemyAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\ActionBase.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\MoveLRAction.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\NormalAttackAction.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\ZMoveAction.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\JudgementBase.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\MoveLRJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\NormalAttackJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\ZMoveJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BaseScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool\EnemyPool.h">
+      <Filter>ヘッダー ファイル\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool\ObjectPool.h">
+      <Filter>ヘッダー ファイル\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\SkillAttackAction.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\SkillAttackJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\BehaviorTree.h">
+      <Filter>ヘッダー ファイル\EnemyAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\AttackJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="ENEMYTYPE.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\MoveJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Action\AvoidanceAction.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\Judgement\AvoidanceJudgement.h">
+      <Filter>ヘッダー ファイル\EnemyAction\Judgement</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAction\BehaviorData.h">
+      <Filter>ヘッダー ファイル\EnemyAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\SoundLoader.h">
+      <Filter>ヘッダー ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\Loader.h">
+      <Filter>ヘッダー ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\Fireball.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataFiles\Assassin_Cultist.dat">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\Cultist.dat">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\Fireball.dat">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\mapTiles.tsx">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\player.dat">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\tiledMap.tmx">
+      <Filter>DataFiles</Filter>
+    </None>
+    <None Include="DataFiles\Twisted_Cutist.dat">
+      <Filter>DataFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\Assassin_CultistAtlus.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\CultistAtlus.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\FireballAtlus.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\map.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\playerAtlus.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\Twisted_CultistAtlus.png">
+      <Filter>Images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
